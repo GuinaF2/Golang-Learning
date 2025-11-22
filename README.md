@@ -115,6 +115,3 @@ O servidor retornará o mesmo objeto JSON confirmando o recebimento.
 -----
 
 *Desenvolvido durante o Workshop de Backend com Golang.*
-
-```
-```
