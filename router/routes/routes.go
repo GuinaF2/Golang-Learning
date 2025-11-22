@@ -9,4 +9,6 @@ import (
 
 func Register(r *mux.Router) {
 	r.HandleFunc("/books/search", handler.HandleSearch).Methods(http.MethodGet)
+	print("Bateu Aqui")
+	r.HandleFunc("/books/save", handler.HandleSave).Methods(http.MethodPost)
 }
